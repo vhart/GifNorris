@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773AEAAEB99072C40DAF0DF1 /* Pods_GifNorrisApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4881E75BF6EE577061C0C326 /* Pods_GifNorrisApp.framework */; };
+		95A47B8101A251A80ACBD531 /* Pods_GifNorrisAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A827D970C8324A8192907ED /* Pods_GifNorrisAppUITests.framework */; };
+		AAE3B3659CABE0B4085ECB19 /* Pods_GifNorrisAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCDD6F4C680351D88A924AB /* Pods_GifNorrisAppTests.framework */; };
+		D5301AC91FB515A6002369E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301AC81FB515A6002369E6 /* AppDelegate.swift */; };
+		D5301ACB1FB515A6002369E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301ACA1FB515A6002369E6 /* ViewController.swift */; };
+		D5301ACE1FB515A6002369E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5301ACC1FB515A6002369E6 /* Main.storyboard */; };
+		D5301AD01FB515A6002369E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5301ACF1FB515A6002369E6 /* Assets.xcassets */; };
+		D5301AD31FB515A6002369E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5301AD11FB515A6002369E6 /* LaunchScreen.storyboard */; };
+		D5301ADE1FB515A6002369E6 /* GifNorrisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301ADD1FB515A6002369E6 /* GifNorrisAppTests.swift */; };
+		D5301AE91FB515A6002369E6 /* GifNorrisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301AE81FB515A6002369E6 /* GifNorrisAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5301ADA1FB515A6002369E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5301ABD1FB515A6002369E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5301AC41FB515A6002369E6;
+			remoteInfo = GifNorrisApp;
+		};
+		D5301AE51FB515A6002369E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5301ABD1FB515A6002369E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5301AC41FB515A6002369E6;
+			remoteInfo = GifNorrisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A827D970C8324A8192907ED /* Pods_GifNorrisAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifNorrisAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391937A8BFA64EB3168F866D /* Pods-GifNorrisAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisAppUITests/Pods-GifNorrisAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4881E75BF6EE577061C0C326 /* Pods_GifNorrisApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifNorrisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCDD6F4C680351D88A924AB /* Pods_GifNorrisAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifNorrisAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF60F68DCD9964F0A669E73 /* Pods-GifNorrisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisApp/Pods-GifNorrisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8B51A824821018396120EE85 /* Pods-GifNorrisAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisAppTests/Pods-GifNorrisAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C486FEE155496953DDF929A1 /* Pods-GifNorrisAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisAppTests/Pods-GifNorrisAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6590F9335601792E5230AE0 /* Pods-GifNorrisAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisAppUITests/Pods-GifNorrisAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4B2F987140C0B9623B5FEAE /* Pods-GifNorrisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifNorrisApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifNorrisApp/Pods-GifNorrisApp.release.xcconfig"; sourceTree = "<group>"; };
+		D5301AC51FB515A6002369E6 /* GifNorrisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifNorrisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5301AC81FB515A6002369E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5301ACA1FB515A6002369E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5301ACD1FB515A6002369E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5301ACF1FB515A6002369E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5301AD21FB515A6002369E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5301AD41FB515A6002369E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5301AD91FB515A6002369E6 /* GifNorrisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifNorrisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5301ADD1FB515A6002369E6 /* GifNorrisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifNorrisAppTests.swift; sourceTree = "<group>"; };
+		D5301ADF1FB515A6002369E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5301AE41FB515A6002369E6 /* GifNorrisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifNorrisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5301AE81FB515A6002369E6 /* GifNorrisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifNorrisAppUITests.swift; sourceTree = "<group>"; };
+		D5301AEA1FB515A6002369E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5301AC21FB515A6002369E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773AEAAEB99072C40DAF0DF1 /* Pods_GifNorrisApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AD61FB515A6002369E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE3B3659CABE0B4085ECB19 /* Pods_GifNorrisAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AE11FB515A6002369E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A47B8101A251A80ACBD531 /* Pods_GifNorrisAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5301ABC1FB515A6002369E6 = {
+			isa = PBXGroup;
+			children = (
+				D5301AC71FB515A6002369E6 /* GifNorrisApp */,
+				D5301ADC1FB515A6002369E6 /* GifNorrisAppTests */,
+				D5301AE71FB515A6002369E6 /* GifNorrisAppUITests */,
+				D5301AC61FB515A6002369E6 /* Products */,
+				DC21DBBC1015DA493CE2883E /* Pods */,
+				E6649903E7B3A23BFAE4A984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5301AC61FB515A6002369E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5301AC51FB515A6002369E6 /* GifNorrisApp.app */,
+				D5301AD91FB515A6002369E6 /* GifNorrisAppTests.xctest */,
+				D5301AE41FB515A6002369E6 /* GifNorrisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5301AC71FB515A6002369E6 /* GifNorrisApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5301AC81FB515A6002369E6 /* AppDelegate.swift */,
+				D5301ACA1FB515A6002369E6 /* ViewController.swift */,
+				D5301ACC1FB515A6002369E6 /* Main.storyboard */,
+				D5301ACF1FB515A6002369E6 /* Assets.xcassets */,
+				D5301AD11FB515A6002369E6 /* LaunchScreen.storyboard */,
+				D5301AD41FB515A6002369E6 /* Info.plist */,
+			);
+			path = GifNorrisApp;
+			sourceTree = "<group>";
+		};
+		D5301ADC1FB515A6002369E6 /* GifNorrisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5301ADD1FB515A6002369E6 /* GifNorrisAppTests.swift */,
+				D5301ADF1FB515A6002369E6 /* Info.plist */,
+			);
+			path = GifNorrisAppTests;
+			sourceTree = "<group>";
+		};
+		D5301AE71FB515A6002369E6 /* GifNorrisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5301AE81FB515A6002369E6 /* GifNorrisAppUITests.swift */,
+				D5301AEA1FB515A6002369E6 /* Info.plist */,
+			);
+			path = GifNorrisAppUITests;
+			sourceTree = "<group>";
+		};
+		DC21DBBC1015DA493CE2883E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF60F68DCD9964F0A669E73 /* Pods-GifNorrisApp.debug.xcconfig */,
+				D4B2F987140C0B9623B5FEAE /* Pods-GifNorrisApp.release.xcconfig */,
+				8B51A824821018396120EE85 /* Pods-GifNorrisAppTests.debug.xcconfig */,
+				C486FEE155496953DDF929A1 /* Pods-GifNorrisAppTests.release.xcconfig */,
+				391937A8BFA64EB3168F866D /* Pods-GifNorrisAppUITests.debug.xcconfig */,
+				C6590F9335601792E5230AE0 /* Pods-GifNorrisAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6649903E7B3A23BFAE4A984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4881E75BF6EE577061C0C326 /* Pods_GifNorrisApp.framework */,
+				6DCDD6F4C680351D88A924AB /* Pods_GifNorrisAppTests.framework */,
+				0A827D970C8324A8192907ED /* Pods_GifNorrisAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5301AC41FB515A6002369E6 /* GifNorrisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5301AED1FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisApp" */;
+			buildPhases = (
+				1658B22BA47C68D3CD6328DA /* [CP] Check Pods Manifest.lock */,
+				D5301AC11FB515A6002369E6 /* Sources */,
+				D5301AC21FB515A6002369E6 /* Frameworks */,
+				D5301AC31FB515A6002369E6 /* Resources */,
+				CCF6751CB71968157FFBE1B0 /* [CP] Embed Pods Frameworks */,
+				AE02FEB2AE0DD0C1357A2D07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifNorrisApp;
+			productName = GifNorrisApp;
+			productReference = D5301AC51FB515A6002369E6 /* GifNorrisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5301AD81FB515A6002369E6 /* GifNorrisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5301AF01FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppTests" */;
+			buildPhases = (
+				F2558813DDDB0E694E514BD2 /* [CP] Check Pods Manifest.lock */,
+				D5301AD51FB515A6002369E6 /* Sources */,
+				D5301AD61FB515A6002369E6 /* Frameworks */,
+				D5301AD71FB515A6002369E6 /* Resources */,
+				647EB84D9EED73A606F5E66F /* [CP] Embed Pods Frameworks */,
+				429C33363FAAD88175681D1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5301ADB1FB515A6002369E6 /* PBXTargetDependency */,
+			);
+			name = GifNorrisAppTests;
+			productName = GifNorrisAppTests;
+			productReference = D5301AD91FB515A6002369E6 /* GifNorrisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5301AE31FB515A6002369E6 /* GifNorrisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5301AF31FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppUITests" */;
+			buildPhases = (
+				07555515E02823269F7CD4AC /* [CP] Check Pods Manifest.lock */,
+				D5301AE01FB515A6002369E6 /* Sources */,
+				D5301AE11FB515A6002369E6 /* Frameworks */,
+				D5301AE21FB515A6002369E6 /* Resources */,
+				E18F22A474F30E31FA42AB46 /* [CP] Embed Pods Frameworks */,
+				ADD1B5784C61378746054863 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5301AE61FB515A6002369E6 /* PBXTargetDependency */,
+			);
+			name = GifNorrisAppUITests;
+			productName = GifNorrisAppUITests;
+			productReference = D5301AE41FB515A6002369E6 /* GifNorrisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5301ABD1FB515A6002369E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ShopKeep;
+				TargetAttributes = {
+					D5301AC41FB515A6002369E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S63H2E63G5;
+						ProvisioningStyle = Automatic;
+					};
+					D5301AD81FB515A6002369E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S63H2E63G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5301AC41FB515A6002369E6;
+					};
+					D5301AE31FB515A6002369E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S63H2E63G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5301AC41FB515A6002369E6;
+					};
+				};
+			};
+			buildConfigurationList = D5301AC01FB515A6002369E6 /* Build configuration list for PBXProject "GifNorrisApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5301ABC1FB515A6002369E6;
+			productRefGroup = D5301AC61FB515A6002369E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5301AC41FB515A6002369E6 /* GifNorrisApp */,
+				D5301AD81FB515A6002369E6 /* GifNorrisAppTests */,
+				D5301AE31FB515A6002369E6 /* GifNorrisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5301AC31FB515A6002369E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5301AD31FB515A6002369E6 /* LaunchScreen.storyboard in Resources */,
+				D5301AD01FB515A6002369E6 /* Assets.xcassets in Resources */,
+				D5301ACE1FB515A6002369E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AD71FB515A6002369E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AE21FB515A6002369E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07555515E02823269F7CD4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1658B22BA47C68D3CD6328DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		429C33363FAAD88175681D1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisAppTests/Pods-GifNorrisAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647EB84D9EED73A606F5E66F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisAppTests/Pods-GifNorrisAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD1B5784C61378746054863 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisAppUITests/Pods-GifNorrisAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE02FEB2AE0DD0C1357A2D07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisApp/Pods-GifNorrisApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF6751CB71968157FFBE1B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisApp/Pods-GifNorrisApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18F22A474F30E31FA42AB46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifNorrisAppUITests/Pods-GifNorrisAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2558813DDDB0E694E514BD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5301AC11FB515A6002369E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5301ACB1FB515A6002369E6 /* ViewController.swift in Sources */,
+				D5301AC91FB515A6002369E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AD51FB515A6002369E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5301ADE1FB515A6002369E6 /* GifNorrisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5301AE01FB515A6002369E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5301AE91FB515A6002369E6 /* GifNorrisAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5301ADB1FB515A6002369E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5301AC41FB515A6002369E6 /* GifNorrisApp */;
+			targetProxy = D5301ADA1FB515A6002369E6 /* PBXContainerItemProxy */;
+		};
+		D5301AE61FB515A6002369E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5301AC41FB515A6002369E6 /* GifNorrisApp */;
+			targetProxy = D5301AE51FB515A6002369E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5301ACC1FB515A6002369E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5301ACD1FB515A6002369E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5301AD11FB515A6002369E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5301AD21FB515A6002369E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5301AEB1FB515A6002369E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5301AEC1FB515A6002369E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5301AEE1FB515A6002369E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF60F68DCD9964F0A669E73 /* Pods-GifNorrisApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5301AEF1FB515A6002369E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B2F987140C0B9623B5FEAE /* Pods-GifNorrisApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5301AF11FB515A6002369E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B51A824821018396120EE85 /* Pods-GifNorrisAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifNorrisApp.app/GifNorrisApp";
+			};
+			name = Debug;
+		};
+		D5301AF21FB515A6002369E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C486FEE155496953DDF929A1 /* Pods-GifNorrisAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifNorrisApp.app/GifNorrisApp";
+			};
+			name = Release;
+		};
+		D5301AF41FB515A6002369E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391937A8BFA64EB3168F866D /* Pods-GifNorrisAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GifNorrisApp;
+			};
+			name = Debug;
+		};
+		D5301AF51FB515A6002369E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6590F9335601792E5230AE0 /* Pods-GifNorrisAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S63H2E63G5;
+				INFOPLIST_FILE = GifNorrisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhart.GifNorrisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GifNorrisApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5301AC01FB515A6002369E6 /* Build configuration list for PBXProject "GifNorrisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5301AEB1FB515A6002369E6 /* Debug */,
+				D5301AEC1FB515A6002369E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5301AED1FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5301AEE1FB515A6002369E6 /* Debug */,
+				D5301AEF1FB515A6002369E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5301AF01FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5301AF11FB515A6002369E6 /* Debug */,
+				D5301AF21FB515A6002369E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5301AF31FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5301AF41FB515A6002369E6 /* Debug */,
+				D5301AF51FB515A6002369E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5301ABD1FB515A6002369E6 /* Project object */;
+}

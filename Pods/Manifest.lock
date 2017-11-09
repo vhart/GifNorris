@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - SwiftGifOrigin (~> 1.6.1)
+
+SPEC CHECKSUMS:
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: 22da7f11e141760a6cdcc4b8ba50324f14084962
+
+COCOAPODS: 1.1.1
