@@ -8,9 +8,11 @@ target 'GifNorrisApp' do
   # Pods for GifNorrisApp-tform :ios, '9.0'
 
   pod 'SwiftGifOrigin', '~> 1.6.1'
+  pod 'RxSwift', '~> 3.3.1'
 
   target 'GifNorrisAppTests' do
     inherit! :search_paths
+    pod 'RxSwift', '~> 3.3.1'
     pod 'Quick'
     pod 'Nimble'
     # Pods for testing

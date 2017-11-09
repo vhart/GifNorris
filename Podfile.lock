@@ -1,18 +1,21 @@
 PODS:
   - Nimble (7.0.2)
   - Quick (1.2.0)
+  - RxSwift (3.3.1)
   - SwiftGifOrigin (1.6.1)
 
 DEPENDENCIES:
   - Nimble
   - Quick
+  - RxSwift (~> 3.3.1)
   - SwiftGifOrigin (~> 1.6.1)
 
 SPEC CHECKSUMS:
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
   SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
 
-PODFILE CHECKSUM: 22da7f11e141760a6cdcc4b8ba50324f14084962
+PODFILE CHECKSUM: 66c9f1de0955237ac0ec0f9bd27cfe412acb763c
 
 COCOAPODS: 1.1.1
