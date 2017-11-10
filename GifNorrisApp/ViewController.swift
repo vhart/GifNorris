@@ -1,25 +1,17 @@
-//
-//  ViewController.swift
-//  GifNorrisApp
-//
-//  Created by Varinda Hart on 11/9/17.
-//  Copyright © 2017 ShopKeep. All rights reserved.
-//
-
 import UIKit
+import RxSwift
 
-class ViewController: UIViewController {
+class ChuckNorrisFactsViewController: UIViewController {
+
+    let disposeBag = DisposeBag()
+    let service = ChuckNorrisService()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        service.pollForText().subscribeNext { text in
+            print(text)
+        }.addDisposableTo(disposeBag)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

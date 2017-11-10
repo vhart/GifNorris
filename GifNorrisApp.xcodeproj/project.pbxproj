@@ -17,6 +17,8 @@
 		D5301AD31FB515A6002369E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5301AD11FB515A6002369E6 /* LaunchScreen.storyboard */; };
 		D5301ADE1FB515A6002369E6 /* GifNorrisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301ADD1FB515A6002369E6 /* GifNorrisAppTests.swift */; };
 		D5301AE91FB515A6002369E6 /* GifNorrisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301AE81FB515A6002369E6 /* GifNorrisAppUITests.swift */; };
+		D5301AF81FB51A93002369E6 /* ChuckNorrisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301AF71FB51A93002369E6 /* ChuckNorrisService.swift */; };
+		D5301AFA1FB554EE002369E6 /* RxSwift+SubscribeNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5301AF91FB554EE002369E6 /* RxSwift+SubscribeNext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D5301AE41FB515A6002369E6 /* GifNorrisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifNorrisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5301AE81FB515A6002369E6 /* GifNorrisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifNorrisAppUITests.swift; sourceTree = "<group>"; };
 		D5301AEA1FB515A6002369E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5301AF71FB51A93002369E6 /* ChuckNorrisService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChuckNorrisService.swift; sourceTree = "<group>"; };
+		D5301AF91FB554EE002369E6 /* RxSwift+SubscribeNext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+SubscribeNext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,14 @@
 		D5301AC71FB515A6002369E6 /* GifNorrisApp */ = {
 			isa = PBXGroup;
 			children = (
+				D5301AF61FB51A60002369E6 /* APIs */,
 				D5301AC81FB515A6002369E6 /* AppDelegate.swift */,
 				D5301ACA1FB515A6002369E6 /* ViewController.swift */,
 				D5301ACC1FB515A6002369E6 /* Main.storyboard */,
 				D5301ACF1FB515A6002369E6 /* Assets.xcassets */,
 				D5301AD11FB515A6002369E6 /* LaunchScreen.storyboard */,
 				D5301AD41FB515A6002369E6 /* Info.plist */,
+				D5301AF91FB554EE002369E6 /* RxSwift+SubscribeNext.swift */,
 			);
 			path = GifNorrisApp;
 			sourceTree = "<group>";
@@ -140,6 +146,14 @@
 				D5301AEA1FB515A6002369E6 /* Info.plist */,
 			);
 			path = GifNorrisAppUITests;
+			sourceTree = "<group>";
+		};
+		D5301AF61FB51A60002369E6 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				D5301AF71FB51A93002369E6 /* ChuckNorrisService.swift */,
+			);
+			name = APIs;
 			sourceTree = "<group>";
 		};
 		DC21DBBC1015DA493CE2883E /* Pods */ = {
@@ -450,7 +464,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5301ACB1FB515A6002369E6 /* ViewController.swift in Sources */,
+				D5301AFA1FB554EE002369E6 /* RxSwift+SubscribeNext.swift in Sources */,
 				D5301AC91FB515A6002369E6 /* AppDelegate.swift in Sources */,
+				D5301AF81FB51A93002369E6 /* ChuckNorrisService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +723,7 @@
 				D5301AEF1FB515A6002369E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5301AF01FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +732,7 @@
 				D5301AF21FB515A6002369E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5301AF31FB515A6002369E6 /* Build configuration list for PBXNativeTarget "GifNorrisAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +741,7 @@
 				D5301AF51FB515A6002369E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
